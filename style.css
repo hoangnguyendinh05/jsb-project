@@ -1,0 +1,94 @@
+/*Reset CSS*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.header-menu {
+    display: flex;
+    background-color: rgb(255, 224, 224);
+}
+
+.header-menu li {
+    list-style-type: none;
+    padding: 40px;
+}
+
+.header-menu li a {
+    text-decoration: none;
+    color: rgb(183, 123, 123);
+    padding: 10px;
+}
+
+.header-menu li a:hover {
+    color: rgb(3, 3, 3);
+    background-color: blanchedalmond
+}
+
+#slider {
+    margin-top: 46px;
+    padding-top: 50px;
+}
+
+.banner {
+    position: relative;
+}
+
+.desc {
+    position: center;
+    bottom: 50px;
+    color: white;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.loggin {
+    width: 300px;
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(10, 10, 10);
+    font-family: sans-serif;
+}
+
+input {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 20px;
+}
+
+button {
+    width: 220px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #15b6e2;
+    color: white;
+}
+
+button:hover {
+    font-size: 15px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white
+}
